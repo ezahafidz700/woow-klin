@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woow Klin - Sabun Pencuci Piring Wangi Anggur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .gradient-green { background: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%); }
+        .bg-purple-accent { background-color: #6a0dad; }
+        .card-hover:hover { transform: translateY(-10px); transition: 0.3s ease; }
+        .logo-img { object-fit: cover; border: 2px solid #16a34a; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+   <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="woow-klin.jpg" alt="Logo Woow Klin" class="w-12 h-12 rounded-full logo-img shadow-sm">
+                <span class="text-2xl font-bold text-green-700 leading-none">Woow <span class="text-purple-700">Klin</span></span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium">
+                <a href="#home" class="hover:text-green-600 transition">Beranda</a>
+                <a href="#fitur" class="hover:text-green-600 transition">Keunggulan</a>
+                <a href="#produk" class="hover:text-green-600 transition">Produk</a>
+                <a href="#kemitraan" class="hover:text-green-600 transition">Kemitraan</a>
+                <a href="https://wa.me/6281355868205?text=Halo%20Woow%20Klin,%20saya%20ingin%20memesan%20sabun%20cuci%20piring" target="_blank" class="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition shadow-md">Pesan Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 overflow-hidden bg-gradient-to-br from-green-50 to-purple-50">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <span class="inline-block px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-bold tracking-wide">BARU! FORMULA LEBIH AMPUH</span>
+                <h1 class="text-5xl md:text-6xl font-bold leading-tight">Bersih Maksimal, <br><span class="text-green-600">Aroma Anggur Segar!</span></h1>
+                <p class="text-lg text-gray-600 max-w-lg">Woow Klin menghadirkan sensasi Aroma Anggur yang menyegarkan saat mencuci. Dengan Formula Power Clean, angkat lemak membandel jadi lebih mudah, cepat, dan higienis tanpa sisa bau sabun.</p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+                    <a href="https://wa.me/6281355868205?text=Halo%20Woow%20Klin,%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank" class="px-8 py-4 bg-green-600 text-white rounded-xl font-bold shadow-lg hover:bg-green-700 transition flex items-center gap-2">
+                        Pesan Sekarang <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Admin%20Woow%20Klin,%20boleh%20tanya%20info%20lebih%20lanjut?" target="_blank" class="px-8 py-4 bg-white border-2 border-green-600 text-green-600 rounded-xl font-bold hover:bg-green-50 transition">
+                        Hubungi Sales
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="absolute -z-10 w-72 h-72 bg-green-200 rounded-full blur-3xl top-0 right-0 opacity-50"></div>
+                <img src="hero.jpg" alt="Woow Klin Product" class="w-full h-auto rounded-3xl shadow-2xl border-4 border-white">
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur Unggulan -->
+    <section id="fitur" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Mengapa Memilih <span class="text-green-600">Woow Klin?</span></h2>
+                <div class="w-20 h-1.5 bg-green-500 mx-auto rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="p-8 bg-green-50 rounded-2xl text-center card-hover shadow-sm">
+                    <div class="w-16 h-16 bg-green-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-6 shadow-md">
+                        <i class="fa-solid fa-soap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Lebih Berbusa</h3>
+                    <p class="text-gray-600 text-sm">Busa melimpah, bersihkan peralatan makan lebih maksimal dengan sedikit penggunaan.</p>
+                </div>
+                <div class="p-8 bg-purple-50 rounded-2xl text-center card-hover shadow-sm">
+                    <div class="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-6 shadow-md">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Lebih Kesat</h3>
+                    <p class="text-gray-600 text-sm">Angkat lemak & kotoran membandel dengan mudah tanpa sisa licin.</p>
+                </div>
+                <div class="p-8 bg-green-50 rounded-2xl text-center card-hover shadow-sm">
+                    <div class="w-16 h-16 bg-green-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-6 shadow-md">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Higienis</h3>
+                    <p class="text-gray-600 text-sm">Bersih higienis, aman digunakan untuk seluruh keluarga dan bersertifikat Halal.</p>
+                </div>
+                <div class="p-8 bg-purple-50 rounded-2xl text-center card-hover shadow-sm">
+                    <div class="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-6 shadow-md">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Lebih Hemat</h3>
+                    <p class="text-gray-600 text-sm">Irit setiap tetesnya, memberikan keuntungan lebih setiap hari untuk pengeluaran Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Katalog Produk -->
+<section id="produk" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+
+        <!-- Heading -->
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-2">
+                    Varian Produk Woow Klin
+                </h2>
+                <p class="text-gray-600 max-w-xl">
+                    Pilih ukuran sesuai kebutuhan Anda — mulai dari rumah tangga hingga kebutuhan bisnis skala besar.
+                </p>
+            </div>
+        </div>
+
+        <!-- Grid Produk -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Produk 500ml -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-100 hover:shadow-2xl transition">
+
+                <!-- Image -->
+                <div class="md:w-1/2 p-8 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center min-h-[320px]">
+                    <img src="500ml.jpg" alt="Woow Klin 500ml" 
+                    class="w-full max-w-xs md:max-w-sm drop-shadow-2xl object-contain hover:scale-105 transition duration-300">
+                </div>
+
+                <!-- Content -->
+                <div class="md:w-1/2 p-10 flex flex-col justify-center">
+                    <span class="text-green-600 font-bold text-xs uppercase tracking-widest mb-2">
+                        Penggunaan Rumah Tangga
+                    </span>
+
+                    <h3 class="text-2xl md:text-3xl font-bold mb-3">
+                        Botol 500 ml
+                    </h3>
+
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+                        Ideal untuk penggunaan harian di dapur. 
+                        Membersihkan lemak membandel dengan cepat dan memberikan 
+                        <strong>Aroma Anggur Segar</strong> yang nyaman tanpa meninggalkan residu berlebih.
+                    </p>
+
+                    <a href="https://wa.me/6281355868205?text=Halo,%20saya%20ingin%20pesan%20Woow%20Klin%20Botol%20500ml" 
+                    target="_blank"
+                    class="text-center py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 shadow-lg shadow-green-200 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Produk 5 Liter -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-100 hover:shadow-2xl transition">
+
+                <!-- Image -->
+                <div class="md:w-1/2 p-8 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center min-h-[320px]">
+                    <img src="5liter.jpg" alt="Woow Klin 5 Liter" 
+                    class="w-full max-w-sm drop-shadow-2xl object-contain hover:scale-105 transition duration-300">
+                </div>
+
+                <!-- Content -->
+                <div class="md:w-1/2 p-10 flex flex-col justify-center">
+                    <span class="text-purple-600 font-bold text-xs uppercase tracking-widest mb-2">
+                        Penggunaan Usaha (Lebih Hemat) 
+                    </span>
+
+                    <h3 class="text-2xl md:text-3xl font-bold mb-3">
+                        Jerigen 5 Liter
+                    </h3>
+
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+                        Solusi ekonomis untuk restoran, katering, dan usaha kuliner. 
+                        Lebih hemat, daya bersih maksimal, dan tetap menghadirkan 
+                        <strong>Aroma Anggur Segar</strong> untuk pengalaman mencuci yang lebih nyaman.
+                    </p>
+
+                    <a href="https://wa.me/6281355868205?text=Halo,%20saya%20ingin%20pesan%20Woow%20Klin%20Jerigen%205%20Liter" 
+                    target="_blank"
+                    class="text-center py-3 bg-purple-600 text-white rounded-xl font-semibold hover:bg-purple-700 shadow-lg shadow-purple-200 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+     <!-- Kemitraan Section (New) -->
+    <section id="kemitraan" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Peluang Bisnis <span class="text-green-600">Masa Depan</span></h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-16">Bergabunglah bersama keluarga besar Woow Klin. Kami membuka peluang kemitraan dengan keuntungan yang sangat kompetitif di pasar.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Reseller -->
+                <div class="border border-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-xl transition group">
+                    <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 group-hover:bg-green-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Reseller</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Modal Sangat Minim</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Margin Keuntungan Tinggi</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Tanpa Minimal Order Besar</li>
+                    </ul>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Admin,%20saya%20tertarik%20menjadi%20Reseller%20Woow%20Klin" target="_blank" class="block w-full py-3 bg-gray-100 text-green-700 font-bold rounded-xl hover:bg-green-600 hover:text-white transition">Daftar Reseller</a>
+                </div>
+
+                <!-- Agen -->
+                <div class="border-2 border-green-500 p-8 rounded-3xl shadow-lg relative bg-white scale-105 z-10">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-green-500 text-white px-6 py-1 rounded-full text-xs font-bold">TERPOPULER</div>
+                    <div class="w-20 h-20 bg-green-600 text-white rounded-full flex items-center justify-center text-3xl mx-auto mb-6 shadow-lg shadow-green-200">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Agen</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Harga Khusus Agen</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Support Bahan Promosi</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Proteksi Wilayah (Radius)</li>
+                    </ul>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Admin,%20saya%20ingin%20tanya%20syarat%20menjadi%20Agen%20Woow%20Klin" target="_blank" class="block w-full py-3 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 shadow-lg shadow-green-200 transition">Daftar Agen</a>
+                </div>
+
+                <!-- Distributor -->
+                <div class="border border-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-xl transition group">
+                    <div class="w-20 h-20 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-truck-ramp-box"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Distributor</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm">
+                        <li><i class="fa-solid fa-check text-purple-500 mr-2"></i> Harga Pabrik (Terendah)</li>
+                        <li><i class="fa-solid fa-check text-purple-500 mr-2"></i> Hak Eksklusif Wilayah</li>
+                        <li><i class="fa-solid fa-check text-purple-500 mr-2"></i> Reward Target Bulanan</li>
+                    </ul>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Admin,%20saya%20ingin%20info%20kemitraan%20Distributor%20Woow%20Klin" target="_blank" class="block w-full py-3 bg-gray-100 text-purple-700 font-bold rounded-xl hover:bg-purple-600 hover:text-white transition">Info Distributor</a>
+                </div>
+            </div>
+
+            <!-- Banner Benefit Tambahan -->
+            <div class="mt-20 bg-gradient-to-r from-green-600 to-green-700 rounded-3xl p-10 text-white flex flex-col md:flex-row items-center justify-between gap-8 text-left shadow-2xl">
+                <div class="md:w-2/3">
+                    <h4 class="text-2xl font-bold mb-4">Kenapa Berbisnis Bersama Kami?</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-money-bill-trend-up mt-1"></i>
+                            <div>
+                                <p class="font-bold">Potensi Repeat Order Tinggi</p>
+                                <p class="text-green-100 text-sm">Sabun adalah kebutuhan pokok harian rumah tangga & usaha.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-bullhorn mt-1"></i>
+                            <div>
+                                <p class="font-bold">Marketing Kit Lengkap</p>
+                                <p class="text-green-100 text-sm">Tersedia konten video, foto produk, dan flyer promosi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/3 text-center md:text-right">
+                    <p class="mb-4 text-sm font-medium opacity-90">Ingin konsultasi bisnis gratis?</p>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Admin,%20saya%20ingin%20konsultasi%20peluang%20bisnis%20Woow%20Klin" target="_blank" class="inline-block px-8 py-4 bg-white text-green-700 font-bold rounded-2xl shadow-xl hover:bg-green-50 transition">Chat Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Informasi Kontak -->
+    <footer id="kontak" class="bg-gray-900 text-white pt-20 pb-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-16 mb-10">
+                
+                <!-- Identitas Brand -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <img src="woow-klin.jpg" alt="Logo Woow Klin" class="w-12 h-12 rounded-full logo-img">
+                        <span class="text-2xl font-bold">Woow <span class="text-green-500">Klin</span></span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Solusi kebersihan peralatan dapur nomor satu di Makassar. Ampuh angkat lemak, lembut di tangan, dan menghadirkan aroma anggur yang segar.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Navigasi Cepat -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 border-l-4 border-green-500 pl-3">Tautan Cepat</h4>
+                    <ul class="space-y-4 text-gray-400 text-sm">
+                        <li><a href="#home" class="hover:text-green-500 transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px]"></i> Beranda</a></li>
+                        <li><a href="#fitur" class="hover:text-green-500 transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px]"></i> Keunggulan</a></li>
+                        <li><a href="#produk" class="hover:text-green-500 transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px]"></i> Varian Produk</a></li>
+                        <li><a href="https://wa.me/6281355868205" class="hover:text-green-500 transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px]"></i> Pesan Retail</a></li>
+                        <li><a href="https://wa.me/6281355868205" class="hover:text-green-500 transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px]"></i> Kemitraan Bisnis</a></li>
+                    </ul>
+                </div>
+
+                <!-- Informasi Kantor & Jam Operasional -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 border-l-4 border-green-500 pl-3">Jam Operasional</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex justify-between"><span>Senin - Jumat:</span> <span class="text-white">08:00 - 17:00</span></li>
+                        <li class="flex justify-between"><span>Sabtu:</span> <span class="text-white">09:00 - 15:00</span></li>
+                        <li class="flex justify-between"><span>Minggu:</span> <span class="text-red-400">Tutup</span></li>
+                        <li class="pt-4">
+                            <span class="block font-bold text-white mb-1">Diproduksi Oleh:</span>
+                            PT. Expert Glow Indonesia<br>
+                            Makassar, Indonesia
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Lokasi & Kontak Langsung -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 border-l-4 border-green-500 pl-3">Lokasi Kami</h4>
+                    <div class="rounded-xl overflow-hidden mb-4 grayscale hover:grayscale-0 transition duration-500 shadow-lg">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127160.85202456477!2d119.3582458466657!3d-5.13788198363717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db9ef9073153549%3A0x628005374e2a2255!2sMakassar%2C%20Makassar%20City%2C%20South%20Sulawesi!5e0!3m2!1sen!2sid!4v1714500000000!5m2!1sen!2sid" 
+                            width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <a href="https://wa.me/6281355868205?text=Halo%20Woow%20Klin,%20saya%20ingin%20bertanya%20mengenai%20produk" target="_blank" class="w-full py-3 bg-green-600 hover:bg-green-700 rounded-lg font-bold transition flex items-center justify-center gap-2 shadow-lg shadow-green-900/40">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Konsultasi Admin
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Copyright & Credits -->
+            <div class="flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs gap-4">
+                <p>&copy; 2024 Woow Klin - CV. Expert Glow Indonesia. Hak Cipta Dilindungi.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-white">Kebijakan Privasi</a>
+                    <a href="#" class="hover:text-white">Syarat & Ketentuan</a>
+                    <span class="text-gray-700">NIB: 0305230025873</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281355868205?text=Halo%20Woow%20Klin,%20saya%20ingin%20memesan" target="_blank" class="fixed bottom-6 right-6 w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-all z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281355868205?text=Halo%20Woow%20Klin,%20saya%20ingin%20memesan" target="_blank" class="fixed bottom-6 right-6 w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-all z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
